@@ -6,12 +6,10 @@ import Layout from "@/components/layout";
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-  return (
-    <>
-     <Layout>
-         <p>Home page!</p>
-     </Layout>
-    </>
-  )
+export default function Contact() {
+    return (
+        <Layout>
+            <p>Contact!</p>
+        </Layout>
+    )
 }
